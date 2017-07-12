@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -7,6 +7,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -26,6 +27,18 @@ h1 {
 
 h2 {
   font-size: 30px;
+  margin: 0 auto 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h3 {
+  float: left;
+  margin-left: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-top: 15px;
 }
 
 .nav {
@@ -66,6 +79,7 @@ nav {
 
 nav ul {
   text-align: center;
+  margin: 0;
 }
 
 nav li {
@@ -79,9 +93,49 @@ nav li img {
 }
 
 .wrapper {
-  background: white;
-  color: grey;
+  background: #D3C5F0;
+  color: #666666;
+  margin: auto;
 }
+
+.dashboard {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 35px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.alert {
+  width: 90%;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  background-color: #9370DB;
+  margin-bottom: 10px;
+  border: 1px solid #49386D;
+}
+
+.chart-settings {
+  float: right;
+  margin-top: 15px;
+}
+
+.chart-settings li {
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 2px;
+  font-size: 1.1em;
+}
+
+.chart-settings li:last-child {
+  margin-right: 15px;
+}
+
 
 .clearfix::after {
    content: " ";
