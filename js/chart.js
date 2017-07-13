@@ -77,7 +77,7 @@ var mobilePieChart = new Chart(mobilePC, {
   },
   options: {
     legend: {
-      position: "bottom",
+      position: "right",
     },
     rotation: -2,
     cutoutPercentage: 55,
