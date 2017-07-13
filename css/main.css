@@ -33,16 +33,11 @@ h2 {
 }
 
 h3 {
-  float: left;
   margin-left: 10px;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 1.1em;
   margin-top: 15px;
-}
-
-h4 {
-  display: inline-block;
 }
 
 .nav {
@@ -157,6 +152,10 @@ input[type="text"] {
   width: 24px;
   height: 24px;
   fill: #fff;
+}
+
+.new-members {
+  margin-left: 10px;
 }
 
 
