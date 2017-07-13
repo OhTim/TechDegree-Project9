@@ -166,11 +166,13 @@ nav li img {
   padding: 10px;
   background-color: #9370DB;
   border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .social-icon svg {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   fill: #fff;
 }
 
@@ -178,6 +180,53 @@ nav li img {
   display: inline-block;
 }
 
+.new-members-info {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.recent-activity-info h4 {
+  font-size: 14px;
+}
+
+.new-members-info p,
+.recent-activity-info p {
+  font-size: 13px;
+  color: slategrey;
+}
+
+.new-members li {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.recent-activity-info {
+  display: inline-block;
+  margin-left: 10px;
+  color:
+}
+
+.recent-activity-info-list li {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.recent-activity-info-list li:first-child,
+.new-members li:first-child {
+    padding-top: 0;
+}
+
+.recent-activity-arrow {
+  margin-left: auto;
+  padding: 10px 5px 15px;
+  color: #9370DB;
+}
 
 .message-user-input input[type="text"] {
   width: 100%;
