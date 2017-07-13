@@ -136,6 +136,12 @@ input[type="text"] {
   margin-right: 15px;
 }
 
+.hourlyLineChart,
+.dailyLineChart,
+.monthlyLineChart {
+  display: none;
+}
+
 
 .clearfix::after {
    content: " ";
