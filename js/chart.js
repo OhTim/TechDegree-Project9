@@ -12,7 +12,7 @@
               label: "Weekly Traffic",
               backgroundColor: '#9370DB',
               borderColor: 'rgb(255, 99, 132)',
-              data: [500, 1000, 750, 1250, 1700, 1200, 1500, 1000, 1500, 2000, 1500, 2000],
+              data: [500, 1000, 750, 1250, 1700, 1200, 1500, 1000, 1500, 2000, 1500],
               lineTension: 0,
               pointBackgroundColor: "white",
               pointBorderColor: "#49386D",
