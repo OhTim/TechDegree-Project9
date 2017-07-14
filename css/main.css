@@ -202,7 +202,6 @@ nav li img {
 
 .new-members-info {
   display: inline-block;
-  margin-left: 10px;
 }
 
 .recent-activity-info h4 {
@@ -219,7 +218,11 @@ nav li img {
   display: flex;
   align-items: center;
   padding-top: 10px;
+}
+
+.new-members-border {
   padding-bottom: 10px;
+  margin-left: 10px;
   border-bottom: 1px solid grey;
 }
 
@@ -291,4 +294,31 @@ select {
    content: " ";
    display: table;
    clear: both;
+}
+
+@media (min-width: 720px) {
+  .flex-chart {
+    display: flex;
+  }
+
+  .chart-bar {
+    width: 50%;
+  }
+
+  .chart-pie {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .flex-members {
+    display: flex;
+  }
+  .new-members {
+    width: 50%;
+  }
+  .recent-activity {
+    border-left: 1px solid slategrey;
+    width: 50%;
+  }
 }

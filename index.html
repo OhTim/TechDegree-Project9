@@ -79,18 +79,20 @@
       <!--  <canvas id="hourlyLineChart"></canvas>
         <canvas id="dailyLineChart"></canvas> -->
         <div class="chart-container" style="position: relative;">
-        <canvas id="weeklyLineChart" width="800" height="400px"></canvas>
+        <canvas id="weeklyLineChart" width="400" height="160"></canvas>
         </div>
       <!--  <canvas id="monthlyLineChart"></canvas> -->
       </section>
-      <section class="chart-bar">
-        <h3>Daily Traffic</h4>
-          <canvas id="dailyBarChart" width="400" height="200"></canvas>
-      </section>
-      <section class="chart-pie">
-        <h3>Mobile Users</h3>
-        <canvas id="mobilePieChart" width="400" height="200"></canvas>
-      </section>
+      <div class="flex-chart">
+        <section class="chart-bar">
+          <h3>Daily Traffic</h4>
+            <canvas id="dailyBarChart" width="400" height="200"></canvas>
+        </section>
+        <section class="chart-pie">
+          <h3>Mobile Users</h3>
+          <canvas id="mobilePieChart" width="400" height="200"></canvas>
+        </section>
+      </div>
       <section class="social-stats">
         <h3>Social Stats</h3>
         <ul>
@@ -150,83 +152,88 @@
           </li>
         </ul>
       </section>
-      <section class="new-members">
-        <h3>New Members</h3>
-        <ul>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="new-members-info">
-              <h4>Victoria Chambers</h4>
-              <p>victoria.chambers80@example.com</p>
-            </div>
-          </li>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="new-members-info">
-              <h4>Dale Byrd</h4>
-              <p>dale.byrd52@example.com</p>
-            </div>
-          </li>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="new-members-info">
-              <h4>Dawn Wood</h4>
-              <p>dawn.wood16@example.com</p>
-            </div>
-          </li>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="new-members-info">
-              <h4>Dan Oliver</h4>
-              <p>dan.oliver82@example.com</p>
-            </div>
-          </li>
-      </section>
-      <section class="recent-activity">
-        <h3>Recent Activity</h3>
-        <ul class="recent-activity-info-list">
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="recent-activity-info">
-              <h4>Victoria Chambers commented on Signify's SEO Tips</h4>
-              <p>4 hours ago</p>
-            </div>
-            <a class="recent-activity-arrow" href="#">
-              <span>></span>
-            </a>
-          </li>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="recent-activity-info">
-              <h4>Dale Byrd liked the post Signify's Changes for 2017</h4>
-              <p>5 hours ago</p>
-            </div>
-            <a class="recent-activity-arrow" href="#">
-              <span>></span>
-            </a>
-          </li>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="recent-activity-info">
-              <h4>Dawn Wood commented on Signify's Changes for 2017</h4>
-              <p>5 hours ago</p>
-            </div>
-            <a class="recent-activity-arrow" href="#">
-              <span>></span>
-            </a>
-          </li>
-          <li>
-            <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
-            <div class="recent-activity-info">
-              <h4>Dan Oliver commented on Signify's SEO Tips</h4>
-              <p>1 day ago</p>
-            </div>
-            <a class="recent-activity-arrow" href="#">
-              <span>></span>
-            </a>
-          </li>
-        </ul>
-      </section>
+      <div class="flex-members">
+        <section class="new-members">
+          <h3>New Members</h3>
+          <ul>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="new-members-border">
+                <div class="new-members-info">
+                  <h4>Victoria Chambers</h4>
+                  <p>victoria.chambers80@example.com</p>
+                </div>
+                <span>10/15/15</span>
+              </div>
+            </li>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="new-members-info">
+                <h4>Dale Byrd</h4>
+                <p>dale.byrd52@example.com</p>
+              </div>
+            </li>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="new-members-info">
+                <h4>Dawn Wood</h4>
+                <p>dawn.wood16@example.com</p>
+              </div>
+            </li>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="new-members-info">
+                <h4>Dan Oliver</h4>
+                <p>dan.oliver82@example.com</p>
+              </div>
+            </li>
+        </section>
+        <section class="recent-activity">
+          <h3>Recent Activity</h3>
+          <ul class="recent-activity-info-list">
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="recent-activity-info">
+                <h4>Victoria Chambers commented on Signify's SEO Tips</h4>
+                <p>4 hours ago</p>
+              </div>
+              <a class="recent-activity-arrow" href="#">
+                <span>></span>
+              </a>
+            </li>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="recent-activity-info">
+                <h4>Dale Byrd liked the post Signify's Changes for 2017</h4>
+                <p>5 hours ago</p>
+              </div>
+              <a class="recent-activity-arrow" href="#">
+                <span>></span>
+              </a>
+            </li>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="recent-activity-info">
+                <h4>Dawn Wood commented on Signify's Changes for 2017</h4>
+                <p>5 hours ago</p>
+              </div>
+              <a class="recent-activity-arrow" href="#">
+                <span>></span>
+              </a>
+            </li>
+            <li>
+              <img class="profile-icon" src="img/icon-profile-picture.svg" alt="profile-picture">
+              <div class="recent-activity-info">
+                <h4>Dan Oliver commented on Signify's SEO Tips</h4>
+                <p>1 day ago</p>
+              </div>
+              <a class="recent-activity-arrow" href="#">
+                <span>></span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
       <section class="message-user">
         <div class="message-user-input">
           <h3>Message User</h3>
